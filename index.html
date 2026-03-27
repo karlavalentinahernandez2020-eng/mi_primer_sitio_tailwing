@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio con Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <header id="encabezado-principal" class="text-center py-8">
+        <h1 class="text-4xl font-bold mb-6">Bienvenidos a Mi Web</h1>
+        
+        <nav class="flex justify-between items-center bg-blue-200 p-4 shadow-md max-w-4xl mx-auto rounded-lg">
+            <a class="text-white hover:bg-blue-600 px-4 py-2 rounded transition-colors" href="#">Inicio</a>
+            <a class="text-white hover:bg-blue-600 px-4 py-2 rounded transition-colors" href="#">Servicios</a>
+            <a class="text-white hover:bg-blue-600 px-4 py-2 rounded transition-colors" href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-6">
+        <section class="mb-10">
+            <h2 class="text-2xl font-semibold border-b-2 border-blue-400 inline-block mb-4">Sobre Nosotros</h2>
+            <p class="text-lg leading-relaxed">
+                Estamos aprendiendo a desarrollar sitios web utilizando HTML5 y CSS3. 
+                Esta es la semana 3 de nuestro curso.
+            </p>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-semibold border-b-2 border-blue-400 inline-block mb-4">Nuestros Servicios</h2>
+            <ul class="list-disc list-inside space-y-2 text-lg">
+                <li class="hover:text-blue-600 cursor-pointer">Diseño Web</li>
+                <li class="hover:text-blue-600 cursor-pointer">Programación</li>
+                <li class="hover:text-blue-600 cursor-pointer">Base de Datos</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="pie-pagina" class="text-center py-10 bg-gray-200 mt-12">
+        <p>&copy; 2026 Instituto Universitario de Tecnología Industrial</p>
+        <p class="font-bold text-blue-700">Desarrollado por: Karla Hernández</p>
+    </footer>
+
+</body>
+</html>
